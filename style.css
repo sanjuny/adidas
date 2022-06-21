@@ -1,0 +1,516 @@
+body{
+    margin: 0;
+}
+.first-banner{
+    background-color:black;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+.first-banner p{
+    padding-top: 10px;
+
+}
+.first-left-head{
+    width: 514px;
+}
+.first-center-head{
+    width: 514px;
+}
+.first-right-head{
+    width: 514px;
+}
+.second-banner{
+    height: 80px;
+    display: flex;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: white;
+}
+.left-1{
+    width: 400px;
+}
+.left-1 img{
+    /* margin-left: 37px; */
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+}
+.center-2{
+    width: 750px;
+}
+.center-2 ul li{
+    padding: 32px 0 0 35px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right-3{
+    height: 80px;
+    width: 400px;
+}
+.right-3 ul li{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    align-items: center;
+    margin: 0;
+}.search-bar{
+
+}
+.right-3 ul{
+    margin: 0;
+}
+form.example input[type=text] {
+    font-size: 15px;
+    padding: 4px 7px;
+    border: 1px solid grey;
+    float: left;
+    background: #cdcbcb;
+    border: 0;
+    width: 60%;
+    color: #fff;
+  }
+  form.example input::placeholde{
+font-size: 10px;
+  }
+  
+  form.example button {
+    float: left;
+    /* width: 10%; */
+    background: #cdcbcb;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border: 0;
+    padding: 4px 7px;
+  }
+  button .fa-search{
+    color: black;
+  }
+  
+  form.example button:hover {
+    background: #cdcbcb;
+    border: 0;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .profile{
+    margin-left: 7px;
+    margin-top: 5px;
+  }
+  .third-banner{
+    height: 600px;
+    position: relative;
+  }
+
+  .third-content{
+    position: absolute;
+    top: 220px;
+    left: 112px;
+    font-family: YeezyzTStar,AdineuePRO,Arial;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0;
+  }
+  .third-button{
+    background-color: black;
+    color: #fff;
+    width: 173px;
+    height: 50px;
+    box-shadow: inset -3px -3px 0px 0px;
+    font-weight: 700;
+    font-size: 14px
+  }
+  .fourth-banner{
+    position: relative;
+  }
+  .fourth-content{
+    position: absolute;
+    top: 204px;
+    left: 150px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 25px;
+    line-height: 32px;
+    
+  }
+  .fourth-down-content{
+    position: absolute;
+    top: 300px;
+    left: 151px;
+    font-size: 18px;
+    color: #fff;
+    font-family: AdihausDIN;
+    font-weight: 400px;
+  }
+  .fourth-down2-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: AdihausDIN;;
+  }
+  .fifth-banner{
+    height: 50px;
+    position: relative;
+  }
+  .fifth-content{
+    color: black;
+    font-size: 23px;
+    font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  .sixth-inside-content{
+    height: 40px;
+    width: 415px;           
+    margin: 11px 0 0 553px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .sixth-inside-content button{
+    border-width: thin;
+  }
+  .seventh-banner{
+    margin-top: 10px;
+  }
+  .up-box-1{
+    width: 100%;
+    font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    font-weight: 600;
+    max-inline-size: fit-content;
+    margin-left: 118px;
+    height: 35px;
+    font-size: 16px;
+  }
+  .eighth-banner{
+    height: 300px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    padding: 0 60px 0 60px;
+
+  }
+  .first-box-1{
+    width: 400px;
+    position: relative;
+  }
+  .center-box-2{
+    width: 400px;
+    position: relative;
+  }
+  .right-box-3{
+    width: 400px;
+    position: relative;
+  }.img-1{
+    width: 400px;
+
+  }.img-2{
+    position: absolute;
+    width: 400px;
+  }
+  .img-3{
+    position: absolute;
+    width: 400px;
+  }
+  .para{
+    position: absolute;
+    top: 130px;
+    left: 183px;
+    color: #fff;
+    font-family: AdihausDIN;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .top-box-1{
+    font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    letter-spacing: .025em;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 113px;
+  }
+  .tenth-banner{
+    /* background-color: aqua; */
+    /* width: 100%; */
+    height: 400px;
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-evenly;
+  }
+  
+  .box-1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .box-2{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .box-3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .box-4{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .box-5{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .inside-con-1{
+    position: absolute;
+    bottom: 6px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+  }
+  .inside-con-2{
+    position: absolute;
+    bottom: 6px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+  }
+  .inside-con-3{
+    position: absolute;
+    bottom: -1px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+  }
+  .inside-con-4{
+    position: absolute;
+    bottom: 2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+  }
+  .inside-con-5{
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+  }
+  .eleventh-banner{
+    height: 50px;
+    margin-top: 20px;
+    padding: 0 100px;
+  }
+  .twelve-banner{
+    height: 400px;
+    padding: 0 67px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .twe-first{
+    width: 300px;
+  }
+  .twe-second{
+    width: 300px;
+  }
+  .twe-third{
+    width: 300px;
+  }
+  .twe-fourth{
+    width: 300px;
+  }
+  .thirteenth-banner{
+    height: 40px;
+    margin-top: 240px;
+    padding: 0 100px;
+  }
+  .fourteenth-banner{
+    height: 400px;
+    padding: 0 100px;
+    display: flex;
+    justify-content:space-between;
+  }
+  .boxxx-1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .boxxx-2{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .boxxx-3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .boxxx-4{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .boxxx-5{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .final-con-1{
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+
+  }
+  .final-con-2{
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+
+    
+  }
+  .final-con-3{
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+
+    
+  }
+  .final-con-4{
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+
+    
+  }
+  .final-con-5{
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 14px;
+
+    
+  }
+  .fifteenth-banner{
+    height: 400px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .fif-con-1{
+    width: 600px;
+  }
+  .fif-con-2{
+    width: 600px;
+  }
+  .sixteenth-banner{
+    background-color:yellow;
+    height: 130px ;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+  
+
+  }
+  .six-con-1{
+    margin: 0%;
+    width: 380px;
+    height: 80px;
+    font-family:fantasy;
+    object-fit: contain;
+    font-size: 33px;
+    margin-right: 242px;
+  }
+  .six-con-2{
+    background-color: black;
+    color: #fff;
+    width: 173px;
+    height: 50px;
+    box-shadow: inset -3px -3px 0px 0px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 30px 0 0 -225px;
+  }
+  .seventeenth-banner{
+    height: 400px;
+    padding: 0 250px;
+    display: flex;
+  }
+  .seven-1{
+    width: 200px;
+    height: 400px;
+  }
+  .seven-2{
+    width: 200px;
+    height: 400px;
+  }
+  .seven-3{
+    width: 200px;
+    height: 400px;
+  }
+  .seven-4{
+    width: 200px;
+    height: 400px;
+  }
+  .seven-5{
+    width: 200px;
+    height: 400px;
+  }
+  .eighteenth-banner{
+    background-color:#363738;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0 100px;
+    margin-top: 25px;
+  }
+  .banner-18-ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .banner-18-1{
+    color:#c8cbcc;
+    text-decoration: none;
+  }
+  .banner-19{
+    position: absolute;
+    color:#c8cbcc;
+    bottom: 0;
+    left: 200px;
+
+  }
